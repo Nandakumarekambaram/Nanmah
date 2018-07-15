@@ -148,6 +148,12 @@ public class WebDriverListener extends Reports implements WebDriverEventListener
 	public <X> void afterGetScreenshotAs(OutputType<X> target, X screenshot) {
 
 	}
+	
+	public String  GetCurrentURL() {
+		return driver.getCurrentUrl();
+		
+		
+	}
 
 	public long takeSnap() {
 
